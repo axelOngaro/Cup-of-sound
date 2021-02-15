@@ -3272,7 +3272,7 @@ var _locomotiveScroll = _interopRequireDefault(require("locomotive-scroll"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var scroll = new _locomotiveScroll.default({
-  el: document.querySelector('[data-scroll-container]'),
+  el: document.querySelector("[data-scroll-container]"),
   smooth: true
 });
 },{"locomotive-scroll":"node_modules/locomotive-scroll/dist/locomotive-scroll.esm.js"}],"../../../../.nvm/versions/node/v15.4.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
@@ -3303,7 +3303,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "33883" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "37677" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -3480,4 +3480,4 @@ function hmrAcceptRun(bundle, id) {
   }
 }
 },{}]},{},["../../../../.nvm/versions/node/v15.4.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","index.js"], null)
-//# sourceMappingURL=/Cup-of-sound.e31bb0bc.js.map
+//# sourceMappingURL=/index.js.map

@@ -1,7 +1,7 @@
 .work {
   grid-column-start: 2;
   grid-column-end: 3;
-  height: 190vh;
+  min-height: 190vh;
   h2 {
     font-size: 78px;
   }
@@ -15,17 +15,23 @@
 
 .projet-content {
   display: flex;
+  padding-top: 5%;
   justify-content: space-between;
   p {
     width: 400px;
     text-align: center;
   }
 }
+.projet1,
+.projet2,
+.projet3 {
+  margin: 5% 0;
+}
 .projet1 {
-  margin-top: 150px;
+  margin-top: 10%;
 }
 .projet3 {
-  margin-bottom: 150px;
+  margin-bottom: 3%;
 }
 
 .fakeimg {
@@ -37,7 +43,7 @@
 #voirplus {
   width: 100%;
   text-align: center;
-  margin-top: 500px;
+  margin-top: 10%;
   font-size: 60px;
   color: blue;
   a {

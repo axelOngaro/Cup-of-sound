@@ -1,12 +1,12 @@
 .home-page {
-  height: 100vh;
+  min-height: 100vh;
   .header {
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-top: 20px;
-    height: 10vh;
+    min-height: 10%;
     h1 {
       cursor: pointer;
     }
@@ -24,13 +24,16 @@
   }
 }
 .landingPage {
-  height: 90vh;
-  padding-top: 160px;
+  min-height: 90%;
+  padding-top: 5%;
   width: 100vw;
   h1,
   h2 {
     margin-left: 400px;
-    font-size: 140px;
+    font-size: 4rem;
+  }
+  h1 {
+    padding-top: 7%;
   }
   p {
     padding-top: 60px;

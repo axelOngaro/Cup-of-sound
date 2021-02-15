@@ -9,15 +9,18 @@ li {
 }
 
 body {
-  font-family: "Jost", sans-serif;
+  font-family: 'Jost', sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: no;
 }
 
 main {
   width: 100vw;
   display: grid;
-  grid-template-columns: 400px auto 400px;
+  grid-template-columns: 10% auto 10%;
 }
-@import "home";
-@import "about";
-@import "work";
-@import "contact";
+@import 'home';
+@import 'about';
+@import 'work';
+@import 'contact';
