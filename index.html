@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="base.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;700&display=swap"
       rel="stylesheet"
@@ -12,8 +13,8 @@
 
     <title>Cup of sound studio</title>
   </head>
-  <body>
-    <div class="home-page">
+  <body data-scroll-container>
+    <div class="home-page" data-scroll-section>
       <header class="header">
         <h1>Cup of sound studio</h1>
         <nav>
@@ -35,7 +36,7 @@
       </div>
     </div>
     <main>
-      <div class="about-page">
+      <div class="about-page" data-scroll-section>
         <h2>A propos.</h2>
         <p>
           Cup Of Sound est un home-studio de production musicale, situé à
@@ -48,7 +49,7 @@
           eius, pariatur eum debitis fugiat!
         </p>
       </div>
-      <div class="work">
+      <div class="work" data-scroll-section>
         <h2>Mon travail.</h2>
         <div class="projet1">
           <h3>Projet1.</h3>
@@ -92,7 +93,7 @@
           <a href="">Soundcloud</a> et <a href="">Youtube</a>!
         </p>
       </div>
-      <div class="contact">
+      <div class="contact" data-scroll-section>
         <h2>Contact.</h2>
         <div class="contact-content">
           <p id="contactemoi">
@@ -112,5 +113,6 @@
         </div>
       </div>
     </main>
+    <script src="index.js"></script>
   </body>
 </html>

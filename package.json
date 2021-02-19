@@ -1,0 +1,23 @@
+{
+  "name": "Cup-of-sound",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axelOngaro/Cup-of-sound.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/axelOngaro/Cup-of-sound/issues"
+  },
+  "homepage": "https://github.com/axelOngaro/Cup-of-sound#readme",
+  "dependencies": {
+    "locomotive-scroll": "^4.1.0"
+  }
+}
