@@ -1,0 +1,46 @@
+.work {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  height: 200vh;
+  h2 {
+    font-size: 78px;
+  }
+  h3 {
+    font-size: 60px;
+  }
+  p {
+    font-size: 24px;
+  }
+}
+
+.projet-content {
+  display: flex;
+  justify-content: space-between;
+  p {
+    width: 400px;
+    text-align: center;
+  }
+}
+.projet1 {
+  margin-top: 150px;
+}
+.projet3 {
+  margin-bottom: 150px;
+}
+
+.fakeimg {
+  height: 400px;
+  width: 600px;
+  background-color: blue;
+}
+
+#voirplus {
+  width: 100%;
+  text-align: center;
+  font-size: 60px;
+  color: blue;
+  a {
+    text-decoration: none;
+    color: blue;
+  }
+}
