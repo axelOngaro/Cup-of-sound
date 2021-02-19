@@ -1,0 +1,70 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+}
+
+.home-page {
+  height: 100vh;
+}
+
+.home-page .header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 20px;
+  height: 10vh;
+}
+
+.home-page .header h1 {
+  cursor: pointer;
+}
+
+.home-page .header nav ul {
+  width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.home-page .header nav ul li {
+  cursor: pointer;
+}
+
+.landingPage {
+  height: 90vh;
+  padding-top: 160px;
+  width: 100vw;
+}
+
+.landingPage h1,
+.landingPage h2 {
+  margin-left: 400px;
+  font-size: 140px;
+}
+
+.landingPage p {
+  padding-top: 60px;
+  width: 100%;
+  text-align: center;
+  font-size: 36px;
+}
+/*# sourceMappingURL=styles.css.map */
