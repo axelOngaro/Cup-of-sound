@@ -1,0 +1,45 @@
+.contact {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  height: 100vh;
+  h2 {
+    font-size: 78px;
+  }
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  p {
+    font-size: 36px;
+    &:last-child {
+      font-weight: bold;
+      font-size: 48px;
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 80px;
+    margin-bottom: 200px;
+    a {
+      text-decoration: none;
+      color: blue;
+      font-size: 36px;
+    }
+  }
+}
+
+#contactemoi {
+  padding-top: 150px;
+  font-size: 60px;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
