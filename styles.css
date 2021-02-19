@@ -108,7 +108,7 @@ main {
   -ms-grid-column: 2;
       grid-column-start: 2;
   grid-column-end: 3;
-  height: 200vh;
+  height: 190vh;
 }
 
 .work h2 {
@@ -154,6 +154,7 @@ main {
 #voirplus {
   width: 100%;
   text-align: center;
+  margin-top: 500px;
   font-size: 60px;
   color: blue;
 }
