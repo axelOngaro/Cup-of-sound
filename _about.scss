@@ -1,0 +1,15 @@
+.about-page {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  h2 {
+    font-size: 78px;
+  }
+  p {
+    font-size: 64px;
+  }
+}

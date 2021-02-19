@@ -13,6 +13,14 @@ body {
   font-family: "Jost", sans-serif;
 }
 
+main {
+  width: 100vw;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 400px auto 400px;
+      grid-template-columns: 400px auto 400px;
+}
+
 .home-page {
   height: 100vh;
 }
@@ -66,5 +74,33 @@ body {
   width: 100%;
   text-align: center;
   font-size: 36px;
+}
+
+.about-page {
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-column-end: 3;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.about-page h2 {
+  font-size: 78px;
+}
+
+.about-page p {
+  font-size: 64px;
 }
 /*# sourceMappingURL=styles.css.map */
