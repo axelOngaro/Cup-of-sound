@@ -1,35 +1,14 @@
 .home-page {
   min-height: 100vh;
-  .header {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-top: 20px;
-    min-height: 10%;
-    h1 {
-      cursor: pointer;
-    }
-
-    nav {
-      ul {
-        width: 500px;
-        display: flex;
-        justify-content: space-evenly;
-        li {
-          cursor: pointer;
-        }
-      }
-    }
-  }
+  grid-column-start: 2;
+  grid-column-end: 3;
 }
 .landingPage {
   min-height: 90%;
   padding-top: 5%;
-  width: 100vw;
+  width: 100%;
   h1,
   h2 {
-    margin-left: 400px;
     font-size: 4rem;
   }
   h1 {

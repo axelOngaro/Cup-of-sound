@@ -3267,29 +3267,54 @@ exports.default = _default2;
 },{}],"index.js":[function(require,module,exports) {
 "use strict";
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
 var _locomotiveScroll = _interopRequireDefault(require("locomotive-scroll"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var scroll = new _locomotiveScroll.default({
-  el: document.querySelector("[data-scroll-container]"),
+  el: document.querySelector('[data-scroll-container]'),
   smooth: true
 });
-var target = document.querySelector("#about-page");
 
-var scrollAbout = function scrollAbout(scroll, target) {
-  console.log("scrollmdr");
+var linkClicked = function linkClicked() {
+  console.log(event.srcElement.id);
+}; // link.addEventListener('click', () => {
+//   linkClicked();
+// });
+// li.addEventListener('click', () => {
+//   scroll.scrollTo(target);
+// });
+
+
+var scrollNav = function scrollNav(link, target) {
   scroll.scrollTo(target);
-};
+}; //Home scroll
 
-var _default = scrollAbout;
-exports.default = _default;
-},{"locomotive-scroll":"node_modules/locomotive-scroll/dist/locomotive-scroll.esm.js"}],"../../../../.nvm/versions/node/v15.5.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+
+var homeLink = document.querySelector('#homeLink');
+var homePage = document.querySelector('#home-page');
+homeLink.addEventListener('click', function () {
+  scroll.scrollTo(homePage);
+}); //about scroll
+
+var aboutLink = document.querySelector('#aboutLink');
+var aboutPage = document.querySelector('#about-page');
+aboutLink.addEventListener('click', function () {
+  scroll.scrollTo(aboutPage);
+}); //Work scroll
+
+var workLink = document.querySelector('#workLink');
+var workPage = document.querySelector('#work-page');
+workLink.addEventListener('click', function () {
+  scroll.scrollTo(workPage);
+}); //contact scroll
+
+var contactLink = document.querySelector('#contactLink');
+var contactPage = document.querySelector('#contact-page');
+contactLink.addEventListener('click', function () {
+  scroll.scrollTo(contactPage);
+});
+},{"locomotive-scroll":"node_modules/locomotive-scroll/dist/locomotive-scroll.esm.js"}],"../../../../.nvm/versions/node/v15.4.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -3317,7 +3342,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51729" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "43017" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -3493,5 +3518,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../../.nvm/versions/node/v15.5.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","index.js"], null)
+},{}]},{},["../../../../.nvm/versions/node/v15.4.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","index.js"], null)
 //# sourceMappingURL=/Cup-of-sound.e31bb0bc.js.map

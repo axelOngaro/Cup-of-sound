@@ -1,0 +1,24 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+  min-height: 10vh;
+  position: fixed;
+  z-index: 1;
+  h1 {
+    cursor: pointer;
+  }
+
+  nav {
+    ul {
+      width: 500px;
+      display: flex;
+      justify-content: space-evenly;
+      li {
+        cursor: pointer;
+      }
+    }
+  }
+}
