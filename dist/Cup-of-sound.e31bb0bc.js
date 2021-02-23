@@ -3294,25 +3294,33 @@ var scrollNav = function scrollNav(link, target) {
 var homeLink = document.querySelector('#homeLink');
 var homePage = document.querySelector('#home-page');
 homeLink.addEventListener('click', function () {
-  scroll.scrollTo(homePage);
+  scroll.scrollTo(homePage, {
+    easing: [0.09, 1.05, 0.01, 0.89]
+  });
 }); //about scroll
 
 var aboutLink = document.querySelector('#aboutLink');
 var aboutPage = document.querySelector('#about-page');
 aboutLink.addEventListener('click', function () {
-  scroll.scrollTo(aboutPage);
+  scroll.scrollTo(aboutPage, {
+    easing: [0.09, 1.05, 0.01, 0.89]
+  });
 }); //Work scroll
 
 var workLink = document.querySelector('#workLink');
 var workPage = document.querySelector('#work-page');
 workLink.addEventListener('click', function () {
-  scroll.scrollTo(workPage);
+  scroll.scrollTo(workPage, {
+    easing: [0.09, 1.05, 0.01, 0.89]
+  });
 }); //contact scroll
 
 var contactLink = document.querySelector('#contactLink');
 var contactPage = document.querySelector('#contact-page');
 contactLink.addEventListener('click', function () {
-  scroll.scrollTo(contactPage);
+  scroll.scrollTo(contactPage, {
+    easing: [0.09, 1.05, 0.01, 0.89]
+  });
 });
 },{"locomotive-scroll":"node_modules/locomotive-scroll/dist/locomotive-scroll.esm.js"}],"../../../../.nvm/versions/node/v15.4.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -3342,7 +3350,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "43017" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "44643" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

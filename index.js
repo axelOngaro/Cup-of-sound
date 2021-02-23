@@ -25,26 +25,26 @@ const homeLink = document.querySelector('#homeLink');
 const homePage = document.querySelector('#home-page');
 
 homeLink.addEventListener('click', () => {
-  scroll.scrollTo(homePage);
+  scroll.scrollTo(homePage, { easing: [0.09, 1.05, 0.01, 0.89] });
 });
 //about scroll
 const aboutLink = document.querySelector('#aboutLink');
 const aboutPage = document.querySelector('#about-page');
 
 aboutLink.addEventListener('click', () => {
-  scroll.scrollTo(aboutPage);
+  scroll.scrollTo(aboutPage, { easing: [0.09, 1.05, 0.01, 0.89] });
 });
 
 //Work scroll
 const workLink = document.querySelector('#workLink');
 const workPage = document.querySelector('#work-page');
 workLink.addEventListener('click', () => {
-  scroll.scrollTo(workPage);
+  scroll.scrollTo(workPage, { easing: [0.09, 1.05, 0.01, 0.89] });
 });
 
 //contact scroll
 const contactLink = document.querySelector('#contactLink');
 const contactPage = document.querySelector('#contact-page');
 contactLink.addEventListener('click', () => {
-  scroll.scrollTo(contactPage);
+  scroll.scrollTo(contactPage, { easing: [0.09, 1.05, 0.01, 0.89] });
 });
