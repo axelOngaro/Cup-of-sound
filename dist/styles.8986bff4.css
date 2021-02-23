@@ -82,7 +82,7 @@ main {
 
 .about-page h2 {
   font-size: 4rem;
-  padding: 5% 0;
+  padding: 8% 0;
 }
 
 .about-page p {
@@ -162,6 +162,7 @@ main {
   grid-column-end: 3;
   min-height: 100vh;
   margin-top: 10%;
+  padding-top: 8%;
 }
 
 .contact h2 {
@@ -213,7 +214,7 @@ main {
 }
 
 #contactemoi {
-  padding-top: 5%;
+  padding-top: 3%;
   font-size: 2.5rem;
   font-weight: bold;
   padding-bottom: 50px;
@@ -270,6 +271,8 @@ main {
 }
 
 .active-link {
+  -webkit-transition: ease-in-out 1s;
+  transition: ease-in-out 1s;
   -webkit-box-shadow: #c2c0c0 3px 3px 10px;
           box-shadow: #c2c0c0 3px 3px 10px;
   color: white;
