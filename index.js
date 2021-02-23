@@ -59,8 +59,6 @@ const toggleLink = (sectionLink) => {
     sectionLink.classList.toggle('active-link');
     sectionLink.classList.toggle('inactive-link');
   }
-
-  console.log(contactLink.classList);
 };
 
 scroll.on('call', (obj) => {
@@ -77,3 +75,5 @@ scroll.on('call', (obj) => {
     toggleLink(homeLink);
   }
 });
+
+console.log(scroll);

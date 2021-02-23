@@ -3331,8 +3331,6 @@ var toggleLink = function toggleLink(sectionLink) {
     sectionLink.classList.toggle('active-link');
     sectionLink.classList.toggle('inactive-link');
   }
-
-  console.log(contactLink.classList);
 };
 
 scroll.on('call', function (obj) {
@@ -3352,6 +3350,7 @@ scroll.on('call', function (obj) {
     toggleLink(homeLink);
   }
 });
+console.log(scroll);
 },{"locomotive-scroll":"node_modules/locomotive-scroll/dist/locomotive-scroll.esm.js"}],"../../../../.nvm/versions/node/v15.4.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
