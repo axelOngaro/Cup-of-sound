@@ -21,13 +21,20 @@
           <li id="homeLink" class="link">home</li>
           <li id="aboutLink" class="link">A propos</li>
           <li id="workLink" class="link">Mon travail</li>
-          <li id="contactLink" class="link">Contact</li>
+          <li id="contactLink" class="link inactive-link">Contact</li>
         </ul>
       </nav>
     </header>
 
     <main data-scroll-container>
-      <div id="home-page" class="home-page" data-scroll-section>
+      <div
+        id="home-page"
+        class="home-page"
+        data-scroll-section
+        data-scroll
+        data-scroll-repeat
+        data-scroll-call="home"
+      >
         <div class="landingPage">
           <h1>Cup of sound studio</h1>
           <div>
@@ -37,7 +44,14 @@
           <p>Studio de production musicale, à Toulouse, France.</p>
         </div>
       </div>
-      <div class="about-page" id="about-page" data-scroll-section>
+      <div
+        class="about-page"
+        id="about-page"
+        data-scroll
+        data-scroll-repeat
+        data-scroll-section
+        data-scroll-call="about"
+      >
         <h2 data-scroll data-scroll-speed="3">A propos.</h2>
         <p data-scroll data-scroll-speed="2">
           Cup Of Sound est un home-studio de production musicale, situé à Rouffiac-tolosan
@@ -49,7 +63,14 @@
           eum debitis fugiat!
         </p>
       </div>
-      <div id="work-page" class="work" data-scroll-section>
+      <div
+        id="work-page"
+        class="work"
+        data-scroll-section
+        data-scroll
+        data-scroll-repeat
+        data-scroll-call="work"
+      >
         <h2 data-scroll data-scroll-speed="3">Mon travail.</h2>
         <div class="projet1" data-scroll>
           <h3>Projet1.</h3>
@@ -90,7 +111,14 @@
           <a href="">Soundcloud</a> et <a href="">Youtube</a>!
         </p>
       </div>
-      <div id="contact-page" class="contact" data-scroll-section>
+      <div
+        id="contact-page"
+        class="contact"
+        data-scroll-section
+        data-scroll
+        data-scroll-repeat
+        data-scroll-call="contact"
+      >
         <h2>Contact.</h2>
         <div class="contact-content">
           <p id="contactemoi">

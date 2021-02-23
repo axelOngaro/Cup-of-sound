@@ -251,6 +251,29 @@ main {
 
 .header nav ul li {
   cursor: pointer;
+  padding: 1% 1.5%;
+  border-radius: 10px;
+}
+
+.header nav ul li:hover {
+  -webkit-transition: ease-out 1s;
+  transition: ease-out 1s;
+  -webkit-transform: translate(5px, 5px);
+          transform: translate(5px, 5px);
+}
+
+.inactive-link {
+  -webkit-transition: ease-in-out 1s;
+  transition: ease-in-out 1s;
+  color: black;
+  background-color: transparent;
+}
+
+.active-link {
+  -webkit-box-shadow: #c2c0c0 3px 3px 10px;
+          box-shadow: #c2c0c0 3px 3px 10px;
+  color: white;
+  background-color: gray;
 }
 
 
