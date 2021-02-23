@@ -3323,33 +3323,6 @@ contactLink.addEventListener('click', function () {
   });
 }); //check visible element
 
-var toggleLink = function toggleLink(sectionLink) {
-  if (sectionLink.classList[1] === 'inactive-link') {
-    sectionLink.classList.toggle('inactive-link');
-    setTimeout(sectionLink.classList.toggle('active-link'), 100);
-  } else {
-    sectionLink.classList.toggle('active-link');
-    sectionLink.classList.toggle('inactive-link');
-  }
-};
-
-scroll.on('call', function (obj) {
-  if (obj === 'contact') {
-    toggleLink(contactLink);
-  }
-
-  if (obj === 'work') {
-    toggleLink(workLink);
-  }
-
-  if (obj === 'about') {
-    toggleLink(aboutLink);
-  }
-
-  if (obj === 'home') {
-    toggleLink(homeLink);
-  }
-});
 console.log(scroll);
 },{"locomotive-scroll":"node_modules/locomotive-scroll/dist/locomotive-scroll.esm.js"}],"../../../../.nvm/versions/node/v15.4.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -3379,7 +3352,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "44643" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "39133" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

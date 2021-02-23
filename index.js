@@ -51,29 +51,4 @@ contactLink.addEventListener('click', () => {
 
 //check visible element
 
-const toggleLink = (sectionLink) => {
-  if (sectionLink.classList[1] === 'inactive-link') {
-    sectionLink.classList.toggle('inactive-link');
-    setTimeout(sectionLink.classList.toggle('active-link'), 100);
-  } else {
-    sectionLink.classList.toggle('active-link');
-    sectionLink.classList.toggle('inactive-link');
-  }
-};
-
-scroll.on('call', (obj) => {
-  if (obj === 'contact') {
-    toggleLink(contactLink);
-  }
-  if (obj === 'work') {
-    toggleLink(workLink);
-  }
-  if (obj === 'about') {
-    toggleLink(aboutLink);
-  }
-  if (obj === 'home') {
-    toggleLink(homeLink);
-  }
-});
-
 console.log(scroll);
