@@ -138,8 +138,6 @@ main {
 }
 
 .fakeimg {
-  height: 400px;
-  width: 600px;
   background-color: blue;
 }
 
@@ -154,6 +152,17 @@ main {
 #voirplus a {
   text-decoration: none;
   color: blue;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+#voirplus a:hover {
+  -webkit-transition: ease-in-out 1s;
+  transition: ease-in-out 1s;
+  -webkit-transform: translate(-10px, -10px);
+          transform: translate(-10px, -10px);
+  background-color: red;
+  color: white;
 }
 
 .contact {
