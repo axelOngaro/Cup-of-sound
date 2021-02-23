@@ -31,6 +31,11 @@ main {
   z-index: 0;
 }
 
+.darkTheme {
+  color: white;
+  background-color: black;
+}
+
 .home-page {
   min-height: 100vh;
   -ms-grid-column: 2;
@@ -54,6 +59,7 @@ main {
 }
 
 .landingPage p {
+  margin-top: 5%;
   padding-top: 60px;
   width: 100%;
   text-align: center;
@@ -82,7 +88,7 @@ main {
 
 .about-page h2 {
   font-size: 4rem;
-  padding: 8% 0;
+  padding-top: 8%;
 }
 
 .about-page p {
@@ -97,6 +103,7 @@ main {
 }
 
 .work h2 {
+  margin-top: 5%;
   font-size: 78px;
 }
 
@@ -130,7 +137,7 @@ main {
 }
 
 .projet1 {
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .projet3 {
@@ -170,11 +177,11 @@ main {
       grid-column-start: 2;
   grid-column-end: 3;
   min-height: 100vh;
-  margin-top: 10%;
-  padding-top: 8%;
+  padding-top: 5%;
 }
 
 .contact h2 {
+  margin-top: 5%;
   font-size: 4rem;
 }
 
@@ -212,8 +219,7 @@ main {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 50%;
-  margin-top: 5%;
-  margin-bottom: 10%;
+  margin: 5% 0%;
 }
 
 .contact-content ul a {
@@ -249,6 +255,10 @@ main {
   cursor: pointer;
 }
 
+.header p {
+  cursor: pointer;
+}
+
 .header nav ul {
   width: 500px;
   display: -webkit-box;
@@ -270,21 +280,6 @@ main {
   transition: ease-out 1s;
   -webkit-transform: translate(5px, 5px);
           transform: translate(5px, 5px);
-}
-
-.inactive-link {
-  -webkit-transition: ease-in-out 1s;
-  transition: ease-in-out 1s;
-  color: black;
-  background-color: transparent;
-}
-
-.active-link {
-  -webkit-transition: ease-in-out 1s;
-  transition: ease-in-out 1s;
-  -webkit-box-shadow: #c2c0c0 3px 3px 10px;
-          box-shadow: #c2c0c0 3px 3px 10px;
-  color: white;
-  background-color: gray;
+  background-color: #c2bfbf;
 }
 /*# sourceMappingURL=styles.css.map */

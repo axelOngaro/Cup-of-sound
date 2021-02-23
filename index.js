@@ -52,3 +52,9 @@ contactLink.addEventListener('click', () => {
 //check visible element
 
 console.log(scroll);
+
+const toggleTheme = document.querySelector('#toggleTheme');
+const main = document.querySelector('#body');
+toggleTheme.addEventListener('click', () => {
+  main.classList.toggle('darkTheme');
+});

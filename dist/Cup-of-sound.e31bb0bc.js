@@ -3324,6 +3324,11 @@ contactLink.addEventListener('click', function () {
 }); //check visible element
 
 console.log(scroll);
+var toggleTheme = document.querySelector('#toggleTheme');
+var main = document.querySelector('#body');
+toggleTheme.addEventListener('click', function () {
+  main.classList.toggle('darkTheme');
+});
 },{"locomotive-scroll":"node_modules/locomotive-scroll/dist/locomotive-scroll.esm.js"}],"../../../../.nvm/versions/node/v15.4.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
